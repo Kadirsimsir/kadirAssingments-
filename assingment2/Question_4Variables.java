@@ -1,0 +1,20 @@
+package assingment2;
+
+public class Question_4Variables {
+
+	public static void main(String[] args) {
+		// Assume that word is a String variable and already has a value.Write a
+		// statement to display the message "Today's Word-Of-The-Day is: " followed by
+		// the value of the word.The message and the value of word should appear
+		// together, on a single line.Ex:Today's Word-Of-The-Day is: Java
+		
+		String word = "Amsterdam" ;
+		
+		System.out.println("Today's Word-Of-The-Day is: " + word);
+		
+		System.out.printf("Today's Word-Of-The-Day is: %s" , word);
+				
+
+	}
+
+}
